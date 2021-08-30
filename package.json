@@ -1,0 +1,21 @@
+{
+  "name": "PalpiteBox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next buid"
+  },
+  "keywords": [],
+  "author": "Pedro Emilio",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "next": "^11.1.0",
+    "node": "^16.6.1",
+    "postcss-import": "^13.0.0",
+    "tailwindcss": "^1.9.0"
+  }
+}
