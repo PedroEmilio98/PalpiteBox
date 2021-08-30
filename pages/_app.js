@@ -1,12 +1,11 @@
 import React from 'react';
 import "../css/styles.css";
+import Header from '../Components/Header';
 
 const MyApp = ({ Component, pageProps }) => {
     return (
-        <div>
-            <div className="bg-red-700 p-4 grid justify-items-center">
-                <h1 >MyApp</h1>
-            </div>
+        <div >
+            <Header />
             <Component {...pageProps} />
         </div>
 
