@@ -1,12 +1,14 @@
 import React from 'react';
+import Layout from '../Components/Layout/Layout';
 import "../css/styles.css";
-import Header from '../Components/Header';
+
 
 const MyApp = ({ Component, pageProps }) => {
     return (
         <div >
-            <Header />
-            <Component {...pageProps} />
+            <Layout>
+                <Component {...pageProps} />
+            </Layout>
         </div>
 
 
