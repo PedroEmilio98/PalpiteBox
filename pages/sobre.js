@@ -7,9 +7,7 @@ const sobre = () => {
         <div>
             <PageTitle title='Sobre' />
             <h1>Sobre</h1>
-            <Link href="/">
-                <a>Home</a>
-            </Link>
+            <div>Esta página contem as informações sobre o estabelicimento</div>
         </div>
     )
 }
