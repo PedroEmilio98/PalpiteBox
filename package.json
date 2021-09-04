@@ -13,9 +13,12 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^9.8.6",
+    "google-spreadsheet": "^3.1.15",
+    "moment": "^2.29.1",
     "next": "^11.1.0",
     "node": "^16.6.1",
     "postcss-import": "^13.0.0",
+    "swr": "^1.0.0",
     "tailwindcss": "^1.9.0"
   }
 }
