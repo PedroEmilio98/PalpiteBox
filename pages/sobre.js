@@ -6,8 +6,9 @@ const sobre = () => {
     return (
         <div>
             <PageTitle title='Sobre' />
-            <h1>Sobre</h1>
-            <div>Esta página contem as informações sobre o estabelicimento</div>
+            <div className='border-2 mx-auto my-40 w-1/2 p-20 text-center bg-gray-200'>
+                Nesta página são inseridas as informações do seu restaurante
+            </div>
         </div>
     )
 }

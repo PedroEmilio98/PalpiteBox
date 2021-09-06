@@ -3,5 +3,8 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/sugestao": "pages/sugestao.js",
-  "/contato": "pages/contato.js"
+  "/sobre": "pages/sobre.js",
+  "/": "pages/index.js",
+  "/api/save": "pages/api/save.js",
+  "/api/get-promo": "pages/api/get-promo.js"
 }
