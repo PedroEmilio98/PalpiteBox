@@ -20,7 +20,7 @@ const contato = () => {
             </Link >
             <Link className='inline mx-auto hover' href='https://facebook.com'>
                 <a className='w-1/6 mx-auto'>
-                    <div className='bg-blue-700 w-1/5 py-10 mx-auto rounded-full my-12 text-white text-center'>
+                    <div className='bg-blue-700 w-1/5  py-10 mx-auto rounded-full my-12 text-white text-center'>
                         Nossa pagina no Facebook
                         <div className='p-3 inline'>
                             <img src='./logo_Fb.png' className='w-16 inline' />
