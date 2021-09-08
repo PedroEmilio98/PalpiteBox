@@ -36,19 +36,19 @@ const sugestao = () => {
         }))
     }
     return (
-        <div className='mx-auto text-center p-4 w-2/5'>
+        <div className='mx-auto text-center p-4 md:w-2/5 lg:w-2/5'>
             <PageTitle title='Sugestao' />
             <h1 className='font-bold my-4'>Crítica ou sugestão</h1>
-            <p className='mb-4 font-bold'>O restaurante X sempre busca por atender melhor seus clientes.<br />
-                Por isso, estamos sempre abertos a ouvir a sua opinião.</p>
-            {!sucess && <div className='w-1/2 mx-auto'>
+            <div className='mb-4 font-bold text-sm md:text-base lg:text-base'>O restaurante X sempre busca por atender melhor seus clientes.<br />
+                Por isso, estamos sempre abertos a ouvir a sua opinião.</div>
+            {!sucess && <div className='w-2/5 lg:w-1/2 md:w-1/2  mx-auto'>
                 <div className='mx-auto text-left'>
                     <label className='font-bold'>Seu nome:</label>
-                    <input type='text' className='bg-blue-100 block shadow-lg rouded py-4 px-12' placeholder='Nome' name='Nome' onChange={onChange} value={form.Nome} />
+                    <input type='text' className='bg-blue-100 block shadow-lg rouded py-4 px-2 lg:px-20 md:px-12' placeholder='Nome' name='Nome' onChange={onChange} value={form.Nome} />
                     <label className='font-bold'>Email:</label>
-                    <input type='text' className='bg-blue-100 block shadow-lg rouded py-4 px-12' placeholder='seuemail@email.com' name='Email' onChange={onChange} value={form.Email} />
+                    <input type='text' className='bg-blue-100 block shadow-lg rouded py-4  py-4 px-2 lg:px-20 md:px-12' placeholder='seuemail@email.com' name='Email' onChange={onChange} value={form.Email} />
                     <label className='font-bold'>Whatsapp:</label>
-                    <input type='text' className='bg-blue-100 block shadow-lg rouded py-4 px-12' placeholder='DDDXXXXXXXXX' name='Whatsapp' onChange={onChange} value={form.Whatsapp} />
+                    <input type='text' className='bg-blue-100 block shadow-lg rouded py-4  py-4 px-2 lg:px-20 md:px-12' placeholder='DDDXXXXXXXXX' name='Whatsapp' onChange={onChange} value={form.Whatsapp} />
                     <label className='font-bold'>Nota:</label>
                     <div className='flex py-4'>
                         {notas.map(nota => {

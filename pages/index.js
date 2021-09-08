@@ -23,7 +23,7 @@ const Index = () => {
             </div>
             {!data && <p>Carregando...</p>}
             {!error && data && data.showCoupon &&
-                <p className='text-center font-bold mb-4 py-10'>
+                <p className='text-center font-bold mb-10 py-10'>
                     {data.message}
                 </p>
             }
