@@ -8,7 +8,7 @@ const doc = new GoogleSpreadsheet(process.env.SHEET_ID)
 
 export default async (req, res) => {
     try {
-        //await doc.useServiceAccountAuth(credentials);
+
         doc.useServiceAccountAuth({
             client_email: process.env.SHEET_CLIENT_EMAIL,
             private_key: fromBase64(process.env.SHEET_PRIVATE_KEY)
